@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-card,
+.container {
+    background-color: lightgray;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 14px;
+    text-align: center;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.title-text {
+    font-weight: bold;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li{
+    margin: 20px;
+    
+}
+
+a,
+.home-link:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+.image-description {
+    font-size: small;
+    margin-top: 0;
+}
+
+img {
+    border-radius: 12px;
+    
+
+}
